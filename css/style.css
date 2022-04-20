@@ -1,0 +1,242 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+    height: 50px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background: #212121;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 45px;
+}
+
+.subheader {
+    margin-top: 50px;
+    position: absolute;
+    width: 100%;
+    height: 84px;
+    background: rgba(0, 0, 0, .6);
+    z-index: 1;
+}
+
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader .subheader_official {
+    margin-top: 6px;
+    font-weight: 100;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.subheader .subheader_call {
+    margin-top: 19px;
+    text-align: right;
+    font-weight: 300;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.subheader .subheader_phone {
+    display: block;
+    text-decoration: none;
+    text-align: right;
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.subheader .subheader_btn {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+
+    font-weight: 400;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.promo {
+    min-height: 800px;
+    background: url(../img/bg/uber_bg.jpg) center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+
+.promo .promo_header {
+    margin-bottom: 0px;
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.promo .promo_subheader {
+    margin-top: 22px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.promo .promo_descr {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 115px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.reason {
+    min-height: 850px;
+    background: #FFFFFF;
+    padding: 18px 0 64px 0;
+}
+
+.reason .black_square {
+    display: block;
+    margin: 0 auto;
+    width: 115px;
+    height: 27px;
+    background: #000000;
+}
+
+.reason .square_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.reason .reason_main {
+    margin-top: 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.reason .reason_item .reason_round {
+    margin: auto 27px auto 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 113px;
+    height: 113px;
+    background: #1EACC7;
+    border-radius: 100%;
+}
+
+.reason .reason_item {
+    display: flex;
+    margin-top: 30px;
+}
+
+.reason .reason_text {
+    width: 370px;
+    margin: 0 auto;
+}
+
+.reason .reason_title {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1EACC7;
+}
+
+.reason .reason_descr {
+    margin-top: 5px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+}
+
+.reason .reason_item_right .reason_round {
+    margin: auto 27px auto 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 113px;
+    height: 113px;
+    background: #1EACC7;
+    border-radius: 100%;
+}
+
+
+.reason .reason_item_right .reason_text {
+    width: 340px;
+    margin: 0 auto;
+}
+
+.reason .reason_item_right {
+    display: flex;
+    margin-top: 30px;
+}
+
+#car_logo {
+    padding-right: 5px;
+}
